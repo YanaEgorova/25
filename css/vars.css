@@ -1,0 +1,12 @@
+:root {
+    --main-bg-color: #fff;
+    --sub-bg-color: #000;
+    --main-text-color: #000;
+    --sub-text-color: #fff;
+    --accent-color: red;
+    --first-brand-color: #fdd935;
+    --main-font: 'Roboto';
+    --title-font: 'Morganite';
+    
+    font-size: 62.5%;
+}

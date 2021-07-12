@@ -1,0 +1,32 @@
+
+.bottom {
+    text-align: center; 
+}
+.bottom__item:not(:last-child) {
+    margin-bottom: 3rem;
+}
+.bottom__img {
+    width: 100%;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen and (min-width: 1024px)  {
+    .bottom__list {
+       display: flex;
+       justify-content: space-between;
+      align-items: center;
+    }
+    .bottom__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .bottom__item {
+        width: 20%;
+    }
+    .bottom__img {
+        margin: 0;
+        height: 23rem;
+        object-fit: cover;
+    }
+}
